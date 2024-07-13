@@ -1,5 +1,3 @@
-I want to make two step form. i will provide instruction bellow:
-
 signin form steps
 
 1) Top on the login form insert a logo icon
@@ -24,8 +22,3 @@ Signup form steps
 6) Then add a link with text "Don't have an account? Sign up"
 7) Add Or continue with google or facebook login option
 8) Then add a link with text "Terms and Conditions"
-
-Form will be two step with two forms. In the left side belong Sign In and right side belong Sign Up option on the upper of form. 
-When user click on signup then signup form will be open. When user click on signin then signup form will be open.
-
-Now write the code with HTML, Tailwind Css code only.
