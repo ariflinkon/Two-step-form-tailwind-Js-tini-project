@@ -1,0 +1,29 @@
+
+.hidden {
+        display: none;
+    }
+
+.fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+.img-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+}
+/* Add this CSS to your style.css file or within a <style> tag in your HTML file */
+
+.submit-btn:hover {
+    background-color: #3b82f6; /* Change to a lighter blue on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}

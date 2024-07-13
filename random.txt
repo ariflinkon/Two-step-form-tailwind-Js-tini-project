@@ -1,0 +1,43 @@
+<!DOCTYPE html>  <!-- Defines the document type and version of HTML -->
+<html>           <!-- Root element of an HTML document -->
+<head>           <!-- Contains meta-information about the document -->
+    <title>      <!-- Sets the title of the document -->
+    <meta>       <!-- Defines metadata about an HTML document -->
+    <link>       <!-- Defines the relationship between a document and an external resource (most used to link to stylesheets) -->
+    <style>      <!-- Contains internal CSS styles -->
+    <script>     <!-- Contains or links to JavaScript code -->
+</head>
+<body>           <!-- Contains the content of an HTML document -->
+    <header>     <!-- Defines a header for a document or section -->
+    <nav>        <!-- Defines navigation links -->
+    <main>       <!-- Specifies the main content of a document -->
+    <section>    <!-- Defines a section in a document -->
+    <article>    <!-- Defines an article -->
+    <aside>      <!-- Defines content aside from the content it is placed in -->
+    <footer>     <!-- Defines a footer for a document or section -->
+    <h1> to <h6> <!-- Defines HTML headings -->
+    <p>          <!-- Defines a paragraph -->
+    <a>          <!-- Defines a hyperlink -->
+    <img>        <!-- Embeds an image -->
+    <div>        <!-- Defines a division or a section -->
+    <span>       <!-- Defines a section in a document -->
+    <ul>         <!-- Defines an unordered list -->
+    <ol>         <!-- Defines an ordered list -->
+    <li>         <!-- Defines a list item -->
+    <table>      <!-- Defines a table -->
+    <tr>         <!-- Defines a row in a table -->
+    <th>         <!-- Defines a header cell in a table -->
+    <td>         <!-- Defines a cell in a table -->
+    <form>       <!-- Defines an HTML form for user input -->
+    <input>      <!-- Defines an input control -->
+    <textarea>   <!-- Defines a multiline input control (text area) -->
+    <button>     <!-- Defines a clickable button -->
+    <select>     <!-- Defines a drop-down list -->
+    <option>     <!-- Defines an option in a drop-down list -->
+    <label>      <!-- Defines a label for an <input> element -->
+    <iframe>     <!-- Defines an inline frame -->
+    <script>     <!-- Defines a client-side script -->
+    <link>       <!-- Defines the relationship between a document and an external resource (most used to link to stylesheets) -->
+    <meta>       <!-- Defines metadata about an HTML document -->
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Step Signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="min-h-screen bg-gray-200">
+
+
+<section class="h-16 bg-blue-500 max-w-md flex items-center justify-center mx-auto">
+    <div class="flex mr-20">
+    <button id="signin-tab" class="tab text-white font-bold">Sign In</button>
+    </div>
+    <div class="flex ml-20">
+        <button id="signup-tab" class="tab text-white font-bold">Sign Up</button>
+    </div>
+</section>
+
+    <!-- Main container for the sign-in and sign-up forms -->
+ <section class="bg-gray-200 flex items-center justify-center">
+    <div class="bg-white p-8 shadow-lg w-full max-w-md">
+     
+        <!-- Sign-in form container -->
+
+
+        <div id="signin-form" class="form">
+            <!-- Logo image -->
+            <span class="img-align"><img src="images/logo.png" alt="Logo" class="mx-auto mb-4" style="width: 100px;"></span>
+            <!-- Sign-in form -->
+            <form>
+                <!-- Email input field -->
+                <div class="mb-4">
+                    <label for="signin-email" class="block text-gray-700">Email</label>
+                    <input type="email" id="signin-email" class="input w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <!-- Password input field -->
+                <div class="mb-4">
+                    <label for="signin-password" class="block text-gray-700">Password</label>
+                    <input type="password" id="signin-password" class="input w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <!-- Sign-in button -->
+                <button type="submit" class="submit-btn w-full bg-blue-500 text-white py-2 rounded-lg">Sign in</button>
+            </form>
+            <!-- Forgot password link -->
+            <div class="mt-4 text-center">
+                <a href="#" class="link text-blue-500">Forgot your password?</a>
+            </div>
+            <!-- Social media sign-in options -->
+            <div class="mt-6 text-center">
+                <p class="text-gray-600">Or continue with</p>
+                <div class="flex justify-center mt-2">
+                    <button class="bg-red-500 text-white px-4 py-2 rounded-lg mr-2">Google</button>
+                    <button class="bg-blue-700 text-white px-4 py-2 rounded-lg">Facebook</button>
+                </div>
+            </div>
+            <!-- Terms and conditions link -->
+            <div class="mt-4 text-center">
+                <a href="#" class="link text-blue-500">Terms and Conditions</a>
+            </div>
+        </div>
+
+
+        <!-- Sign-up form container -->
+
+
+        <div id="signup-form" class="form hidden">
+            <!-- Logo image -->
+            <span class="img-align"><img src="images/logo.png" alt="Logo" class="mx-auto mb-4" style="width: 100px;"></span>
+            <!-- Sign-up form -->
+            <form>
+                <!-- Name input field -->
+                <div class="mb-4">
+                    <label for="signup-name" class="block text-gray-700">Name</label>
+                    <input type="text" id="signup-name" class="input w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <!-- Email input field -->
+                <div class="mb-4">
+                    <label for="signup-email" class="block text-gray-700">Email</label>
+                    <input type="email" id="signup-email" class="input w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <!-- Password input field -->
+                <div class="mb-4">
+                    <label for="signup-password" class="block text-gray-700">Password</label>
+                    <input type="password" id="signup-password" class="input w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <!-- Sign-up button -->
+                <button type="submit" class="submit-btn w-full bg-blue-500 text-white py-2 rounded-lg">Sign up</button>
+            </form>
+            <!-- Social media sign-up options -->
+            <div class="mt-6 text-center">
+                <p class="text-gray-600">Or continue with</p>
+                <div class="flex justify-center mt-2">
+                    <button class="bg-red-500 text-white px-4 py-2 rounded-lg mr-2">Google</button>
+                    <button class="bg-blue-700 text-white px-4 py-2 rounded-lg">Facebook</button>
+                </div>
+            </div>
+            <!-- Terms and conditions link -->
+            <div class="mt-4 text-center">
+                <a href="#" class="link text-blue-500">Terms and Conditions</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="js/script.js"></script>
+</body>
+<footer class="text-center text-gray-600 text-sm py-4">Developed by Arif Jahan Linkon</footer>
+</html>
